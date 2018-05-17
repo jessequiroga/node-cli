@@ -1,0 +1,32 @@
+{
+  "name": "octooss",
+  "version": "0.0.1",
+  "description": "Easy start with OSS",
+  "author": "Hoang Nhat Nguyen <hoangnn93@gmail.com>",
+  "license": "MIT",
+  "preferGlobal": "true",
+  "scripts": {
+    "build": "babel src -d bin",
+    "dev": "babel src -d bin && chmod +x bin/index.js"
+  },
+  "bin": "./bin/index.js",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "commander": "^2.11.0",
+    "http-status-codes": "^1.3.0",
+    "inquirer": "^3.3.0",
+    "request": "^2.82.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.7.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "jest": "^22.4.3"
+  }
+}
