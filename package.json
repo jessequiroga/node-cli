@@ -1,7 +1,7 @@
 {
-  "name": "octooss",
+  "name": "node-cli-starter-kit",
   "version": "0.0.1",
-  "description": "Easy start with OSS",
+  "description": "Starter kit for writting cli in NodeJS",
   "author": "Hoang Nhat Nguyen <hoangnn93@gmail.com>",
   "license": "MIT",
   "preferGlobal": "true",
